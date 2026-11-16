@@ -1,5 +1,7 @@
 # NanoRV-32
 
+[v0.0仕様策定の完了判定と残る実機ゲート](docs/specification-review.md)
+
 Tang Nano 9K上の自作RV32I CPUと小型OSを段階的に育てるプロジェクト。現在は仕様策定中で、RTL・OSは未実装です。
 
 ## 仕様書（初稿）
