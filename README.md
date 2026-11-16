@@ -4,7 +4,8 @@ Tang Nano 9K上の自作RV32I CPUと小型OSを段階的に育てるプロジェ
 
 ## 仕様書（初稿）
 
-- **[実装基準仕様 v0](docs/baseline-v0.md)** — 下記初稿に優先する具体仕様。レビュー待ち。
+- **[実装基準仕様 v0](docs/baseline-v0.md)** — PR #17で承認済み。下記初稿に優先する具体仕様。
+- [開発環境・ボード制約の確認状況](docs/environment-status.md)
 - [転送プロトコルの検証用ベクター生成](docs/protocol-vectors.py)
 
 - [requirements](docs/requirements.md)
