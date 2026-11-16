@@ -1,5 +1,7 @@
 # 全体構成 — Draft 0.1
 
+> PR #17で承認された[実装基準仕様](baseline-v0.md)の§1〜4が本稿に優先する。size/instr/errorを追加したバスを採用する。
+
 PC ↔ UART RX/TX ↔ Boot Controller / CPU用MMIO。CPUとBoot Controllerは所有権切替を介して同期RAMへ接続する。CPUはPC・Decoder・32bit ALU・レジスタファイル・FSMで構成する。
 
 候補FSM: FETCH要求 → FETCH待機 → DECODE → EXECUTE → 必要に応じMEM要求/待機 → WRITEBACK。命令は一つずつ完了する。
