@@ -1,5 +1,7 @@
 # 開発環境 — Draft 0.1
 
+> [実装基準仕様](baseline-v0.md)の§8と[環境確認記録](environment-status.md)を参照。候補の選定と実際の導入確認は区別する。
+
 候補: Verilog、Icarus VerilogまたはVerilator、波形ビューア、GowinまたはOSS合成フロー、RISC-V GCC（-march=rv32i -mabi=ilp32）、Python PCローダー。いずれも採用・版は未確定で導入済みとはしない。
 
 #6でWindows/WSLの選択、インストール元、バージョン固定、最小シミュレーション、合成・書込みコマンドを記録する。公式ボード回路図で実機版・UART配線・クロック・リセット極性を照合する。目標周波数とピン番号は未確定。
